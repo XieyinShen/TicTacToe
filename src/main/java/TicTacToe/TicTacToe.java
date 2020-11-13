@@ -82,11 +82,12 @@ public class TicTacToe {
 			System.out.println("Tie!!!");
 			isGameOver = true;
 		  } else {
-			// do nothing
+			isPlayOneTurn = !isPlayOneTurn; // turn around...
 		  }
 		}
 	  }
 	}
+	printMatrix(matrix);
   }
 
   /**
